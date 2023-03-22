@@ -1,0 +1,13 @@
+{
+  "name": "Port",
+  "alias": "port",
+  "route": "port",
+  "description": "Import & Export Module",
+  "keywords": [],
+  "priority": 0,
+  "order": 1,
+  "providers": ["Modules\\Port\\Providers\\PortServiceProvider"],
+  "aliases": {},
+  "files": [],
+  "requires": []
+}

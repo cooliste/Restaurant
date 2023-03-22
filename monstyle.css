@@ -1,0 +1,150 @@
+*,
+*:after,
+*:before{
+	margin:0;
+	padding:0;
+   	box-sizing: border-box;		
+	font-size: 62.5%;
+}
+
+html{
+  box-sizing: border-box;		
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	font-weight: 200;
+	position:relative;
+}
+.hide{
+	display:none;
+}
+.fixed{
+	top:0;
+	position:fixed;
+}
+.fixed-sidebar{
+	position:sticky;
+}
+
+/*.   HEADER.  */
+header {
+	width:100vw;
+  	height: 70vh;
+  background-color:grey;
+	background-size: cover;
+	text-align: center;
+	display: flex;
+   	align-items: center;
+  	justify-content: center;
+}
+h1{
+	letter-spacing: 2rem;
+	font-size:7rem;
+	color:#FFFAFF;
+	opacity: 3;
+	text-shadow: 3px 4px 0 rgba(0,0,3,0.4);
+}
+
+nav {
+	width:100vw;
+	height: 8vh;
+	background-color: #FFFACD;
+	position:relative;
+	z-index:1;
+
+}
+
+nav ul {
+	top:0;
+ 	justify-content: center;
+	display:flex;
+}
+nav ul span{
+	font-size:2rem;
+}
+nav ul li{
+ 	list-style: none;
+ 	font-size: 2rem;
+ 	flex:1;
+ 	text-align: center;
+ 	align-items: center;
+ 	justify-content: center;
+	margin:12px;
+	color:#117A65;
+  	letter-spacing: .2rem;
+  	font-weight: 450;
+ }
+nav ul li:first-child{
+	margin-right:8vw;
+}
+nav ul li:nth-child(5){
+	margin-right:7vw;
+}
+
+nav ul li a{
+	margin-top:0;
+	color:#117A65;
+	font-weight: 500;
+	letter-spacing: .4rem;
+	text-decoration: none;
+	justify-content: center;
+  }
+	
+nav ul li a:hover,
+nav ul span:hover{
+	color:black;  	
+  }
+
+ /*   MAIN  */
+
+.site-wrap{
+	max-width:700px;
+	margin:0 auto;
+	font-size:2rem;
+	letter-spacing: .2rem;
+}
+
+ h2{
+ 	margin-top:14vh;
+	text-align:center;
+ 	font-size:4rem;
+	letter-spacing: .3rem;
+ 	color:#D3D3D3;
+ }
+
+ #sidebar{
+	width: 200px;
+	height:100vh;
+	background-image: linear-gradient(to bottom, rgba(255,250,205,.4), rgba(240,227,113,.8));
+	margin-left:-200px;
+	transition:margin-left .5s linear;
+	position:absolute;
+ }
+
+
+ #sidebar.active{
+ 	margin-top:;
+ 	margin-left:0;
+ }
+
+ #sidebar li{
+ 	padding:20px;
+ 	list-style: none;
+ 	font-size: 2rem;
+ 	text-align: center;
+ 	align-items: center;
+ 	justify-content: center;
+	color:#117A65;
+  	letter-spacing: .2rem;
+  	font-weight:450;
+ }
+
+
+#sidebar li a {
+ 	text-decoration:none;
+	color:#117A65;
+	font-weight: 500;
+	letter-spacing: .4rem;
+	text-decoration: none;
+	justify-content: center;
+}
+

@@ -1,0 +1,23 @@
+{
+  "name": "tecdiary/port",
+  "description": "Import & Export Module",
+  "authors": [
+    {
+      "name": "Mian Saleem",
+      "email": "saleem@tecdiary.com"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Modules\\Port\\Providers\\PortServiceProvider"
+      ],
+      "aliases": {}
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Modules\\Port\\": ""
+    }
+  }
+}
